@@ -52,7 +52,6 @@ module uart_tx(input clk,rst,wrt_en,enb, input [7:0]data_in, output reg tx, busy
             else
                 index<= index + 3'h1;
         		tx<= data[index];
-            
           end
 
       
