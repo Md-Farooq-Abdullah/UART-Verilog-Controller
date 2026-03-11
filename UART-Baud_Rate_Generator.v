@@ -34,5 +34,6 @@ module BD_gen(input clk,rst, output reg tx_en, reg rx_en);
       rx_en <= 0;
     end
   end
+
   
 endmodule
